@@ -23,7 +23,6 @@ shinyUI(
 
       ),
       mainPanel(
-        textOutput( "choose"),
         plotOutput( "plot")
       )
     )
